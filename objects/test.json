@@ -1,0 +1,37 @@
+{
+    "draworder": "topdown",
+    "id": 2,
+    "name": "spawn",
+    "objects": [
+        {
+            "name": "A",
+            "properties": [
+                {
+                    "name": "type",
+                    "type": "string",
+                    "value": "collision"
+                }
+            ],
+            "width": 918.7,
+            "height": 158.55,
+            "x": 336.32,
+            "y": 117.207
+        },
+        {
+            "name": "B",
+            "width": 523.2,
+            "height": 1780.55,
+            "x": 72.32,
+            "y": -250.207
+        },
+        {
+            "name": "C",
+            "width": 25.55,
+            "height": 76.21,
+            "x": 672.32,
+            "y": 300.207
+        }
+    ],
+    "opacity": 1,
+    "visible": true
+}
