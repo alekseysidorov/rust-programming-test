@@ -11,9 +11,9 @@ pub struct Point2D {
 /// Bounding rectangle.
 #[derive(Debug, Clone, Copy, PartialEq, Serialize)]
 pub struct BoundingRect {
-    /// Bottom left corner of the rectangle.
+    /// Top left corner of the rectangle.
     pub(crate) from: Point2D,
-    /// Top right corner of the rectangle.
+    /// Bottom right corner of the rectangle.
     pub(crate) to: Point2D,
 }
 
